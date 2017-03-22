@@ -1,0 +1,59 @@
+body{
+	text-align: center;
+}
+
+h1{
+	font-size:60px;
+}
+
+.hiding{
+	opacity: 0;
+}
+
+#pNotify{
+	display: block;
+	height: 30px;
+	width: 500px;
+	margin: 20px auto 0 auto;
+	font-size: 19px;
+	font-weight: bold;
+	color: #ff6b6b;
+	transition: opacity 0.3s;
+}
+
+#tableLog{
+	width:700px;
+	margin:30px auto;
+}
+
+#tableLog td{
+	text-align: left;
+	vertical-align: middle;
+}
+
+#tableLog td a{
+	color:inherit;
+	text-decoration: none;
+}
+
+#tableLog td a:hover{
+	text-decoration: underline;
+}
+
+#tableLog td a.deleteButton{
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	text-align: center;
+	line-height: 30px;
+	opacity: 0.4;
+	transition: opacity 0.3s;
+	font-size:11px;
+}
+
+#tableLog td a.deleteButton:hover{
+	opacity: 1;
+}
