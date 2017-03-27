@@ -29,9 +29,10 @@ This work is licenced under the GPL-3.0 License.
 *   Provide a rate-limited API to allow automated systems to use the service
 *   A check to determine if a valid website can be found at the given URL
 *   Write unit tests
-*	A temporary landing page that can show adverts etc before redirecting
+*   A temporary landing page that can show adverts etc before redirecting
 *   Produce a CLI installer
 *   Produce a more modern front-end
+*   Prevent URLs being made for ?controller and ?method
 
 ## Requirements
 
